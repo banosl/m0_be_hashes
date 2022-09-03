@@ -57,7 +57,7 @@ email = {
 
 # Write code that prints your email hash to the terminal.
 
- p email
+puts email
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
@@ -80,6 +80,10 @@ p email.values
 
 # Check out the following example of an array of Instagram posts:
 
+# I'm just using this to seperate out the returned text in the terminal.
+p []
+p []
+p []
 
 posts = ["image at beach", "holiday party", "adorable puppy", "video of cute baby"]
 
@@ -119,3 +123,29 @@ p posts[0]
 # YOU DO: Create an array of at least 3 EMAIL Hashes, using the same
 # key-value pairs you used in your email Hash above.
 # Then, print the email Array to the Terminal.
+
+emails = [
+  {
+    to: "Esra Juanes",
+    to_email: "esra.juanes@gmail.com",
+    from: "Leo Banos Garcia",
+    from_email: "leo.banosgarcia@gmail.com",
+    subject: "Appropriation of Funds June 2022"
+  },
+  {
+    to: "James Escabel",
+    to_email: "james.escabel@gmail.com",
+    from: "Leo Banos Garcia",
+    from_email: "leo.banosgarcia@gmail.com",
+    subject: "Apples and Oranges, an Ethnography"
+  },
+  {
+  to: "Camila Sanchez de la Torre",
+  to_email: "c_sancheztorre@gmail.com",
+  from: "Leo Banos Garcia",
+  from_email: "leo.banosgarcia@gmail.com",
+  subject: "Black Holes and You"
+  }
+]
+
+p emails
