@@ -1,5 +1,5 @@
 
-Activity:
+#Activity:
 
 # In the below exercises, write code that achieves
 # the desired result. To check your work, run this
@@ -47,17 +47,29 @@ foods ["ham"] = 13
 # Declare a variable that stores hash. Each key should be an attribute of an email and each
 # value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
+email = {
+  "to" => "Esra Juanes",
+  "to email" => "esra.juanes@gmail.com",
+  "from" => "Leo Banos Garcia",
+  "from email" => "leo.banosgarcia@gmail.com",
+  "Subject" => "Appropriation of Funds June 2022"
+}
+
 # Write code that prints your email hash to the terminal.
 
+ p email
 
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
 # YOUR CODE HERE
 
+p email.keys
+
 # Write code that prints all of the 'values' of the email hash
 # you created above:
 # YOUR CODE HERE
 
+p email.values
 
 #-------------------
 # Part 3: Many Emails - CHALLENGE!
